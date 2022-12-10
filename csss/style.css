@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background: #100E14;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+#header {
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.49);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    backdrop-filter: blur(4px);
+}
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+}
+.header a {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+.hero h1 {
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.hero h3 {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0;
+}
+.hero button {
+    width: 281px;
+    height: 66px;
+    left: calc(50% - 281px/2 + 0.5px);
+    top: 232px;
+    background: #FF4343;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.hero-img {
+    position: relative;
+}
+.hero-tel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+#shoot {
+    padding: 80px 0;
+}
+
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.shoot-img {
+    position: relative;
+}
+.shoot-tel {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.shoot-title h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.shoot-title p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.line-title h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+.line-title p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.line-title p span {
+    font-weight: 900;
+    color: white;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.add-title h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+.add-title p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.add-title p span {
+    font-weight: 900;
+    color: white;
+}
+.youtube-title h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    width: 445px;
+}
+.youtube-title p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 530px;
+}
+.youtube-title p span {
+    font-weight: 900;
+    color: white;
+}
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#craft {
+    padding: 80px 0;
+}
+.craft h1 {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.line {
+    width: 120px;
+    height: 5px;
+    background: #FF4343;
+    margin: 40px 0;
+}
+.craft p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.craft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block {
+    position: relative;
+    width: 251px;
+    height: 452px;
+}
+.block-bg {
+   position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 31.25%, #000000 100%);
+    width: 100%;
+    height: 100%;
+}
+.block-title {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+.block-title h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.block-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
